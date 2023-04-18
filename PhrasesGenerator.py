@@ -32,7 +32,13 @@ def chatGpt():
 	)
 	# Print generated text
 	print(response.choices[0].text.strip())
-	result.insert("0.0", response.choices[0].text.strip())
+	result.insert("0.0", "\n"+response.choices[0].text.strip())
+	res = result.get("0.0", "end-1c")
+
+	# Open a new file in write mode
+	with open('answers.txt', 'w') as f:
+		# Write text to the file
+		f.write(res)
 
 root = ctk.CTk()
 root.geometry("500x500")
