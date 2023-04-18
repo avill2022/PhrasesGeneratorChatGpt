@@ -1,5 +1,7 @@
 ## PhrasesGenerator
 
+![Screenshot 2023-04-17 191148](https://user-images.githubusercontent.com/105819329/232643841-ebe9ba22-be03-4e68-aaad-833d42bd65e3.png)
+
 ### Description
 
 This Python project uses the OpenAI API to generate sentences in a selected language and saves the results in a file.
@@ -65,6 +67,7 @@ This Python project uses the OpenAI API to generate sentences in a selected lang
 ### Contributing
 
 If you'd like to contribute to this project, please follow the standard GitHub workflow:
+
 
 1. Fork the repository
 2. Create a new branch for your changes
